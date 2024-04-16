@@ -1,0 +1,64 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* En-tête */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Articles */
+article {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article header {
+    margin-bottom: 10px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    color: #343a40;
+}
+
+article time {
+    color: #777;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+/* Pied de page */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
